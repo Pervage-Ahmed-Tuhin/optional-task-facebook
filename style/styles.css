@@ -26,6 +26,12 @@ nav{
 .logo{
     width: 180px;
     cursor: pointer;
+    transition: .4s ease;
+}
+
+.logo:hover{
+    color: #f5168d;
+    background-color: purple;
 }
 
 nav ul{
@@ -45,4 +51,74 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+    transition: .4s ease;
+}
+
+nav ul li a:hover{
+    color: #f5168d;
+    background-color: purple;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+.btn img{
+    width: 20px;
+    margin-right: 16px;
+}
+
+.content{
+    margin-top: 14%;
+    color: white;
+    max-width: 620px;
+}
+
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+.content form{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+
+
+}
+
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+.content form .btn{
+    font-size: 16px;
+    padding: 10px 30px;
+    transition: .4s ease;
+}
+
+.btn:hover{
+    color: #f5168d;
+    background-color: purple;
 }
